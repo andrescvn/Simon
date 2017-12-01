@@ -1,0 +1,67 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.Boton" parent="TextAppearance.AppCompat.Headline">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">36dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="AppTheme.Boton.Azul" parent="AppTheme.Boton">
+        <item name="android:background">#00989b</item>
+    </style>
+
+    <style name="AppTheme.Boton.Azul2" parent="AppTheme.Boton">
+        <item name="android:background">#04f8fc</item>
+    </style>
+
+    <style name="AppTheme.Boton.Rojo" parent="AppTheme.Boton">
+        <item name="android:background">#b10000</item>
+    </style>
+
+    <style name="AppTheme.Boton.Rojo2" parent="AppTheme.Boton">
+        <item name="android:background">#ff0000</item>
+    </style>
+
+    <style name="AppTheme.Boton.Amarillo" parent="AppTheme.Boton">
+        <item name="android:background">#c6bf00</item>
+    </style>
+
+    <style name="AppTheme.Boton.Amarillo2" parent="AppTheme.Boton">
+        <item name="android:background">#fff600</item>
+    </style>
+
+    <style name="AppTheme.Boton.Verde" parent="AppTheme.Boton">
+        <item name="android:background">#009b13</item>
+    </style>
+
+    <style name="AppTheme.Boton.Verde2" parent="AppTheme.Boton">
+        <item name="android:background">#04fc22</item>
+    </style>
+
+    <style name="AppTheme.Boton.Negro" parent="AppTheme.Boton">
+        <item name="android:background">#060000</item>
+    </style>
+
+    <style name="AppTheme.Boton.blanco" parent="AppTheme.Boton">
+        <item name="android:background">#ffffff</item>
+    </style>
+</resources>
